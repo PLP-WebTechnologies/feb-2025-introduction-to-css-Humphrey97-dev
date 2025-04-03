@@ -1,0 +1,55 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif; /* Use Arial font for the entire page */
+    background-color: #f4f4f4; /* Light gray background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the header */
+.main-header {
+    background-color: #3498db; /* Blue header background */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Styling for h1 in header */
+.main-header h1 {
+    font-size: 2.5rem; /* Large font size */
+    margin: 0;
+}
+
+/* Styling for the content section */
+.content-section {
+    background-color: white; /* White background for content section */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Styling for images */
+.styled-image {
+    display: block; /* Ensure the image is a block element */
+    margin: 20px auto; /* Center the image and add space around it */
+    max-width: 100%; /* Ensure the image is responsive */
+    border: 5px solid #3498db; /* Blue border around the image */
+    border-radius: 8px; /* Rounded corners for the image */
+}
+
+/* Footer styling */
+#page-footer {
+    text-align: center;
+    background-color: #2c3e50; /* Dark footer background */
+    color: white;
+    padding: 10px 0;
+    margin-top: 40px; /* Add space above footer */
+}
+
+/* Styling for h2 in the content section */
+.content-section h2 {
+    color: #2c3e50; /* Dark text for section headings */
+    font-size: 1.8rem;
+    margin-bottom: 10px; /* Space below the heading */
+}
